@@ -8,10 +8,8 @@
 //  1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 //  2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
-var hundredNumber = [101];
+for (var i = 1; i < 101; i++) {
 
-function fizzBuzz() {
-    
     if (i % 3 ===0 && i % 5 ===0) {
         
         console.log('FizzBuzz');
@@ -29,11 +27,28 @@ function fizzBuzz() {
         console.log(i);
 
     }
-}
-
-
-for (var i = 1; i < 101; i++) {
-
-    fizzBuzz();
 
 }
+
+// function fizzBuzzFunc() {
+    
+//     if (i % 3 ===0 && i % 5 ===0) {
+       
+//        console.log('FizzBuzz');
+//     } else if (i % 3 ===0) {
+
+//        console.log('Fizz');
+//     } else if (i % 5 ===0) {
+
+//        console.log('Buzz');
+//     } else {
+
+//        console.log(i);
+//     }
+// }
+
+// for (var i = 1; i < 101; i++) {
+
+//    fizzBuzzFunc();
+
+// }

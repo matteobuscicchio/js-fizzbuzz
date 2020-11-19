@@ -8,7 +8,7 @@
 //  1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 //  2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
-for (var i = 1; i < 1001; i++) {
+for (var i = 1; i < 101; i++) {
 
     if (i % 3 ===0 && i % 5 ===0) {
        
@@ -91,8 +91,8 @@ for (var i = 1; i < 1001; i++) {
 //     }
 // }
 
-// for (var i = 1; i < 101; i++) {
+// for (var i = 1; i < 10001; i++) {
 
 //    fizzBuzzFunc();
 
-}
+// }

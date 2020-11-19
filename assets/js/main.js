@@ -8,42 +8,86 @@
 //  1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 //  2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
-for (var i = 1; i < 101; i++) {
+for (var i = 1; i < 1001; i++) {
 
     if (i % 3 ===0 && i % 5 ===0) {
-        
+       
         console.log('FizzBuzz');
-
-    } else if (i % 3 ===0) {
-
+     } else if (i % 3 ===0) {
+ 
         console.log('Fizz');
-
-    } else if (i % 5 ===0) {
-
+     } else if (i % 5 ===0) {
+ 
         console.log('Buzz');
-
-    } else {
-
+     } else {
+ 
         console.log(i);
-
-    }
-
+     }
+    
 }
 
 // function fizzBuzzFunc() {
-    
-//     if (i % 3 ===0 && i % 5 ===0) {
-       
-//        console.log('FizzBuzz');
-//     } else if (i % 3 ===0) {
 
-//        console.log('Fizz');
+//     if (i % 7 ===0 && i % 5 ===0&& i % 3 ===0 && i % 2 ===0) {
+
+//         console.log('multiplo di 7, 5, 3 e 2');
+
+//     } else if (i % 7 ===0 && i % 5 ===0&& i % 3 ===0) {
+
+//         console.log('multiplo di 7, 5 e 3');
+
+//     } else if (i % 7 ===0 && i % 5 ===0&& i % 2 ===0) {
+
+//         console.log('multiplo di 7, 5 e 2');
+
+//     } else if (i % 7 ===0 && i % 3 ===0&& i % 2 ===0) {
+
+//         console.log('multiplo di 7, 3 e 2');
+
+//     } else if (i % 5 ===0 && i % 3 ===0&& i % 2 ===0) {
+
+//         console.log('multiplo di 5, 3 e 2');
+
+//     } else if (i % 7 ===0 && i % 5 ===0) {
+        
+//         console.log('multiplo di 7 e 5');
+
+//     } else if (i % 7 ===0 && i % 3 ===0) {
+        
+//         console.log('multiplo di 7 e 3');
+
+//     } else if (i % 7 ===0 && i % 2 ===0) {
+        
+//         console.log('multiplo di 7 e 2');
+
+//     } else if (i % 5 ===0 && i % 3 ===0) {
+        
+//         console.log('multiplo di 5 e 3');
+
+//     } else if (i % 5 ===0 && i % 2 ===0) {
+        
+//         console.log('multiplo di 5 e 2');
+
+//     } else if (i % 7 ===0) {
+
+//         console.log('multiplo di 7');
+
 //     } else if (i % 5 ===0) {
 
-//        console.log('Buzz');
+//         console.log('multiplo di 5');
+
+//     } else if (i % 3 ===0) {
+
+//         console.log('multiplo di 3');
+
+//     } else if (i % 2 ===0) {
+
+//         console.log('multiplo di 2');
+
 //     } else {
 
-//        console.log(i);
+//         console.log(i);
+
 //     }
 // }
 
@@ -51,4 +95,4 @@ for (var i = 1; i < 101; i++) {
 
 //    fizzBuzzFunc();
 
-// }
+}
